@@ -3,10 +3,10 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $LEGEND_REPO == "MYSTERIOUSBOT" ]]
+    if [[ $LEGEND_REPO == "RUCHIBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL01ZU1RFUklPVVMtT1MvTVlTVEVSSU9VU1VTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
-    elif [[ $LEGEND_REPO == "MYSTERIOUSBOT" ]]
+    elif [[ $LEGEND_REPO == "RUCHIBOTBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL01ZU1RFUklPVVMtT1MvTVlTVEVSSU9VU1VTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     elif [[ $LEGEND_REPO =~ $regex ]]
@@ -25,20 +25,20 @@ _get_repolink () {
 
 _set_bot () {
     local zippath
-    zippath="MYSTERIOUSBOT.zip"
+    zippath="RUCHIBOT.zip"
     echo "  Downloading Mysterious V2.O Source Code..."
     wget -q $(_get_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
     LEGENDPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "Done"
-    echo "  MysteriousBot V2.O Cleaning.."
+    echo "  RuchiBot V2.O Cleaning.."
     rm -rf "$zippath"
     sleep 5
     cd $LEGENDPATH
-    echo "    ⚜️Starting MysteriousBot⚜️     "
+    echo "    ⚜️Starting RuchiBot⚜️     "
     echo "
-    MYSTERIOUSBOT
+    RUCHIBOT
     "
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
