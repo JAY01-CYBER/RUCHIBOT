@@ -53,7 +53,7 @@
 
 ### StringSession
 
-[STRING SESSION](https://repl.it/@KrishnaJaiswal1/RUCHIBOT#main.py)
+[STRING SESSION](https://repl.it/@KrishnaJaiswal1/MYSTERIOUSBOT#main.py)
 
     - Click On Generate String
     - Then Click On Green Run Button.
