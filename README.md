@@ -53,7 +53,7 @@
 
 ### StringSession
 
-[STRING SESSION](https://repl.it/@KrishnaJaiswal1/MYSTERIOUSBOT#main.py)
+[STRING SESSION](https://repl.it/@KrishnaJaiswal1/RUCHIBOT#main.py)
 
     - Click On Generate String
     - Then Click On Green Run Button.
@@ -70,7 +70,7 @@
 
 <a href="https://t.me/RUCHI_BOTZONE"><img src="https://img.shields.io/badge/Ruchi%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
 
-<a href="https://t.me/Legend_Mr_Hacker"><img src="https://img.shields.io/badge/CREATOR%20ME-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/chaudhary_Anjana"><img src="https://img.shields.io/badge/CREATOR%20ME-blue.svg?style=for-the-badge&logo=Telegram"></a>
 
 
 [![Contact Me](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/chaudhary_Anjana)
@@ -82,7 +82,7 @@
 
 ![](https://www.gnu.org/graphics/gplv3-or-later.png)
 
-MYSTERIOUS-OS
+jayanti01
 
 Poject [RUCHIBOT](https://github.com/jayanti01/MYSTERIOUSBOT) is free software: you can redistribute it and/or modify
 
@@ -110,4 +110,4 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
   <summary> • 💡 CREDITS 💞 • </summary>
   
-• [LEGEND](https://github.com/LEGEND-OS)
+• [OWNER](https://t.me/chaudhary_Anjana)
