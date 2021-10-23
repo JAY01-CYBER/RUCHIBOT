@@ -108,6 +108,6 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 <details>
 
-  <summary> • 💡 CREDITS 💞 • </summary>
+  <summary> • 💡 OWNER 💞 • </summary>
   
 • [OWNER](https://t.me/chaudhary_Anjana)
