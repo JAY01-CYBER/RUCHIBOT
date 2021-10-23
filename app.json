@@ -44,7 +44,7 @@
     },
     "YOUR_CHANNEL": {
       "description": "Set Ur Group Username",
-      "value": "@RUCHI_BOTZONE",
+      "value": "@RUCHIBOT_SUPPORT",
       "required": true
     },
     "BOY_OR_GIRL": {
