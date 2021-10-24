@@ -34,6 +34,6 @@ jobs:
 
           repository: .
 
-          commit_user_name: LEGEND-OS
+          commit_user_name: jayanti01
 
           commit_user_email: Jayantic108@gmail.com
