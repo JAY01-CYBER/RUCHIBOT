@@ -1,4 +1,4 @@
-name: Krishna Kumar
+name: Jayanti Chaudhary
 
 on: push
 
@@ -36,4 +36,4 @@ jobs:
 
           commit_user_name: LEGEND-OS
 
-          commit_user_email: Krishna045Jaiswal@gmail.com
+          commit_user_email: Jayantic108@gmail.com
