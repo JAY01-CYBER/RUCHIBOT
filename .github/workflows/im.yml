@@ -1,18 +1,23 @@
-name: Docker Image CI
+name: Jayanti Chaudhary
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: push
 
 jobs:
 
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      - uses: actions/checkout@v2
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@master
+        with:
+          find:  "RUCHIBOT"
+          replace: "RUCHIBOT"
+      - name: Create Pull Request
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'Initial commit'
+          commit_options: '--no-verify'
+          repository: .
+          commit_user_name: jayanti01
+          commit_user_email: jayantic108@gmail.com
