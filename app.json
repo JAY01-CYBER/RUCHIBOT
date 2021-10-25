@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/jayanti01/RUCHIBOT",
-  "website": "https://github.com/jayanti01/RUCHIBOT",
+  "repository": "https://github.com/jayanti01/RUCHIBOT/",
+  "website": "https://github.com/jayanti01/RUCHIBOT/",
   "success_url": "https://t.me/RUCHI_BOTZONE",
   "env": {
     "ENV": {
@@ -23,7 +23,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name. By default it is Ruchi User",
+      "description": "Fill your Full name. By default it is Ruchibaby User",
       "value": "Ruchibaby 🇮🇳",
       "required": false
     },
