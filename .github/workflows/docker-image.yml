@@ -1,10 +1,10 @@
-name: Docker Image CI
+name: Jayanti Chaudhary
 
 on:
   push:
-    branches: [ master ]
+    branches: [ jayanti01 ]
   pull_request:
-    branches: [ master ]
+    branches: [ jayanti01 ]
 
 jobs:
 
