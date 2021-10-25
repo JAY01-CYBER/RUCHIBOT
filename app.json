@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/jayanti01/RUCHIBOT/",
-  "website": "https://github.com/jayanti01/RUCHIBOT/",
+  "repository": "https://github.com/jayanti01/RUCHIBOT",
+  "website": "https://github.com/jayanti01/RUCHIBOT",
   "success_url": "https://t.me/RUCHI_BOTZONE",
   "env": {
     "ENV": {
