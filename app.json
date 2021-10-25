@@ -23,7 +23,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name. By default it is Jayanti User",
+      "description": "Fill your Full name. By default it is Ruchi User",
       "value": "Ruchibaby 🇮🇳",
       "required": false
     },
