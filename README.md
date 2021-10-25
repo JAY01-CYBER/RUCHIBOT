@@ -84,7 +84,7 @@
 
 jayanti01
 
-Poject [RUCHIBOT](https://github.com/jayanti01/MYSTERIOUSBOT) is free software: you can redistribute it and/or modify
+Poject [RUCHIBOT](https://github.com/jayanti01/RUCHIBOT) is free software: you can redistribute it and/or modify
 
 it under the terms of the GNU General Public License as published by
 
