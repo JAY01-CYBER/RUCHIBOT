@@ -1,7 +1,7 @@
 {
   "name": "𝚃𝙷𝙴 RUCHIBOT",
-  "description": "The MafiaBot made by @chaudhary_Anjana special thanks to respective MAFIABOT owner . Join for updates related info @RUCHI_BOTZONE",
-  "logo": "https://telegra.ph/file/75229ba894ef780332815.jpg",
+  "description": "The Ruchibot made by @chaudhary_Anjana special thanks to respective MAFIABOT owner . Join for updates related info @RUCHI_BOTZONE",
+  "logo": "https://telegra.ph/file/1aa73f560fdd4dd6ad370.jpg",
     "keywords": [
     "telegram",
     "userbot",
@@ -39,7 +39,7 @@
     },
     "ALIVE_PIC": {
       "description": "Put here any telegraph media link for alive pic in .alive command.",
-      "value": "https://telegra.ph/file/502d3b7372c1c395bba5a.mp4",
+      "value": "https://telegra.ph/file/1aa73f560fdd4dd6ad370.jpg",
       "required": false
     },
     "BIO_MSG": {
@@ -49,7 +49,7 @@
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for custom pmpermit pic.",
-      "value": "https://telegra.ph/file/502d3b7372c1c395bba5a.mp4",
+      "value": "https://telegra.ph/file/1aa73f560fdd4dd6ad370.jpg",
       "required": true
     },
     "CUSTOM_PMPERMIT": {
@@ -103,7 +103,7 @@
     },
     "HELP_PIC": {
       "description": "Put link of pic or gif to show your .help menu provider cool",
-      "value": "https://telegra.ph/file/2ed4a8dcd1cea1b38b113.mp4",
+      "value": "https://telegra.ph/file/1aa73f560fdd4dd6ad370.jpg",
       "required": false 
     },
     "EMOJI_IN_HELP": {
