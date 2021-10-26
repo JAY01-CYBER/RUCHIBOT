@@ -1,6 +1,6 @@
 {
-  "name": "𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃",
-  "description": "The MafiaBot made by @H1M4N5HU0P special thanks to respective HellBot owner @Kraken_The_BadASS. Join for updates related info @MafiaBot_Support",
+  "name": "𝚃𝙷𝙴 RUCHIBOT",
+  "description": "The MafiaBot made by @chaudhary_Anjana special thanks to respective MAFIABOT owner . Join for updates related info @RUCHI_BOTZONE",
   "logo": "https://telegra.ph/file/75229ba894ef780332815.jpg",
     "keywords": [
     "telegram",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/H1M4N5HU0P/MAFIABOT/",
-  "website": "https://github.com/H1M4N5HU0P/MAFIABOT/",
-  "success_url": "https://t.me/MAFIABOT_SUPPORT",
+  "repository": "https://github.com/jayanti01/RUCHIBOT/",
+  "website": "https://github.com/jayanti01/RICHIBOT/",
+  "success_url": "https://t.me/RUCHI_BOTZONE",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.",
@@ -23,28 +23,28 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @H1M4N5HU0P. By default it is Mafia User",
-      "value": "@MafiaBot_Support",
+      "description": "Fill your Full name or Username like @chaudhary_Anjana. By default it is RUCHI User",
+      "value": "@RUCHI_BOTZONE",
       "required": false
     },
     "ABUSE": {
-      "description": "Leave it blank if you dont want Profanity in MafiaBot. Else Fill ON.",
+      "description": "Leave it blank if you dont want Profanity in RUCHI. Else Fill ON.",
       "value": "",
       "required": false
     },    
     "ALIVE_MSG": {
-      "description": "Set Custom Alive Message When entering .mafia Command.",
-      "value": "😈MAFIABOT IS ALIVE😈",
+      "description": "Set Custom Alive Message When entering .alive Command.",
+      "value": "😈RUCHI IS ALIVE😈",
       "required": false
     },
     "ALIVE_PIC": {
-      "description": "Put here any telegraph media link for alive pic in .mafia command.",
+      "description": "Put here any telegraph media link for alive pic in .alive command.",
       "value": "https://telegra.ph/file/502d3b7372c1c395bba5a.mp4",
       "required": false
     },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "😈LEGEND'S SAY'S TO MAFIABOT😈",
+      "value": "😈LEGEND'S SAY'S TO RUCHIBOT😈",
       "required": false
     },
     "PMPERMIT_PIC": {
@@ -59,7 +59,7 @@
     },
     "APP_ID": {
       "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
-      "value": "2184829"
+      "value": ""
     },
     "SUDO_USERS": {
       "description": "Enter your friends user id to to give him bot sudo access",
@@ -73,19 +73,19 @@
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
-      "value": "6930b92388baabff4cb4a1d377085035"
+      "value": ""
     },
-    "MAFIABOT_LOGGER": {
+    "RUCHIBOT_LOGGER": {
       "description": "Create a private channel/group add rose then type /id in group.",
       "value": "-1001174481876"
     },
     "STRING_SESSION": {
-      "description": "Get this value by running https://repl.it/@H1M4N5HU0P/MAFIABOT#main.py ",
+      "description": "Get this value by running https://repl.it/@jayanti01/RUCHIBOT#main.py ",
       "value": ""
     },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
-      "value": "22c9f205-3860-48e7-a1e5-457c15480877",
+      "value": "",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -95,11 +95,11 @@
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
-      "value": "1445762068:AAG_-327E_oIzta6TGGbdc6-RqePyM8fyR8"
+      "value": ""
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at @BotFather and get the username of your bot",
-      "value": "@MAFIA_PUBLIC_bot"
+      "value": ""
     },
     "HELP_PIC": {
       "description": "Put link of pic or gif to show your .help menu provider cool",
