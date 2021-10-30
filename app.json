@@ -24,7 +24,7 @@
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name or Username like @chaudhary_Anjana. By default it is RUCHI User",
-      "value": "@RUCHI_BOTZONE",
+      "value": "",
       "required": false
     },
     "ABUSE": {
@@ -77,7 +77,7 @@
     },
     "RUCHIBOT_LOGGER": {
       "description": "Create a private channel/group add rose then type /id in group.",
-      "value": "-1001174481876"
+      "value": ""
     },
     "STRING_SESSION": {
       "description": "Get this value by running https://replit.com/@matchgaminggami/jayanti01RUCHIBOT-1#main.py ",
@@ -90,7 +90,7 @@
     },
     "HEROKU_APP_NAME": {
       "description": "The Value of App Name you filled in right on top.Required for updater to work.",
-      "value": "enteryourappname",
+      "value": "",
       "required": true
     },
     "TG_BOT_TOKEN_BF_HER": {
