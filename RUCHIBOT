@@ -8,7 +8,7 @@ _get_repolink () {
     if [[ $RUCHI_REPO == "ruchibot" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0gxTTRONUhVMFAvTUFGSUEtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
-    elif [[ $RUCHI_REPO == "RUCHIBOTBOT" ]]
+    elif [[ $RUCHI_REPO == "RUCHIBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0gxTTRONUhVMFAvTUFGSUEtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     elif [[ $RUCHI_REPO =~ $regex ]]
@@ -27,17 +27,17 @@ _get_repolink () {
 
 _set_bot () {
     local zippath
-    zippath="mafiabot.zip"
+    zippath="ruchibot.zip"
     echo "  Downloading source code ..."
     wget -q $(_get_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
-    MAFIAPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    RUCHIPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "Done"
     echo "  Cleaning ..."
     rm -rf "$zippath"
     sleep 5
-    cd $MAFIAPATH
+    cd $RUCHIPATH
     echo "    Starting RuchiBot    "
 
     python3 ./setup/updater.py ./requirements.txt requirements.txt
